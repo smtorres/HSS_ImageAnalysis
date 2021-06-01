@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}
+\usepackage{fullpage}
+%% color for the links 
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{longtable}
+\usepackage[style=bwl-FU]{biblatex}
+%\usepackage{natbib}
+%\usepackage{bibentry}
+\bibliography{Reading}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{pifont}
+\usepackage{url}
+\usepackage{mathabx}
+\usepackage{soul}
+% We will generate all images so they have a width \maxwidth. This means
+% that they will get their normal width if they fit onto the page, but
+% are scaled down if they would overflow the margins.
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth
+\else\Gin@nat@width\fi}
+\makeatother
+\let\Oldincludegraphics\includegraphics
+% \renewcommand{\includegraphics}[1]{\Oldincludegraphics[width=\maxwidth]{#1}}
+%% hyperlinks
+\usepackage[
+	colorlinks=true,
+	urlcolor=MidnightBlue,
+	plainpages=false,
+  	]{hyperref}% color for the links 
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\setcounter{secnumdepth}{0}
+
+\title{Data Science Summer School: Image Analysis}
+\author{Dr. Michelle Torres}
+\date{Summer 2021}
+
+
+\begin{document}
+
+\maketitle
+
+\begin{flushleft}
+\section{Contact Information}\label{contact-information}
+
+Instructor: Dr. Michelle Torres\\
+Email: smtorres@rice.edu\\
+Website: \url{http://smtorres.org}\\
+TA: Alex Pugh\\
+Email: alexpugh@rice.edu\\
+
+\section{Course Overview and Objectives}\label{course-objectives-and-learning-outcomes}
+Political science has changed dramatically in the last decade. Until recently, it has never been easier to retrieve and get access to massive amounts of visual data depicting a wide variety of political events. Further, technological advances have not only allowed researchers, especially in the computer science field, to access that data but also to develop and use methods for the analysis of imagery that were unthinkable a few years ago. 
+
+This course provides an introduction to image analysis including core concepts of image structure, feature definition and measurement, and classification. In particular, we will review the intuition, statistical basis and implementation of two methods for the unsupervised and supervised analysis of images: a visual structural topic model based on the Bag of Visual Words, and Convolutional Neural Networks (CNNs). 
+
+
+Several of the tools designed to understand visual content rely on the power of computers and machines to achieve their objectives. Thus, students should \emph{ideally} feel comfortable using \texttt{R} and have had some exposure to other languages like \texttt{Python}, but should \textbf{\emph{minimally}} be familiar with basic functionality of \texttt{R}.
+
+The workshop is divided into two sections: a lecture reviewing theoretical concepts, and an applied part in which we conduct basic classification tasks using Python, OpenCV, and R.
+
+\section{Useful textbooks}\label{required-texts-and-materials}
+\begin{itemize}
+    \item Howse, Joseph, and Joe Minichino. 2020. \emph{Learning OpenCV 4 Computer Vision with Python 3}. 3rd Edition. Birmingham, UK: Packt.
+    \item Mart\'{i}nez, Jes\'{u}s. 2021. \emph{TensorFlow 2.0 Computer Vision Cookbook}. Birmingham, UK: Packt.
+\end{itemize}
+
+
+\section{Course material and code}
+Code and material for this workshop will be hosted in the GitHub page of the instructor: .
+
+
+\section{Class policies and etiquette}
+\begin{itemize}
+    \item Classroom discussion should be civilized and respectful to everyone and relevant to the topic we are discussing. Everyone is entitled to their opinion. Respect for individual differences and alternative viewpoints will be maintained at all times in this class. Also, respect the questions that other classmates may have. This is a safe environment to ask questions and learn.
+
+    \item Zoom etiquette I: To make these online meeting a positive experience for everyone that somewhat resembles what our normal classroom would have looked like, please (i) try to join our class meeting from a quiet, distraction-free environment, (ii) turn on your camera when you join class, (iii) look at the camera when you are talking to the class, (iv) mute yourself if the environment is too loud or you have microphone issues, and (v) have a plan for taking notes (paper and pencil, digital notepad, Word/Pages doc). I am TRUSTING YOU with this last point that you are using your computer only for class purposes, and are not shopping, reading other material or working on other tasks. I know that focusing on an online class could be much more difficult than keeping concentrated in in-person classes but PLEASE make an extra effort to be present as a sign of respect for me, Alex, and your classmates.
+\end{itemize}
+
+\end{flushleft}
+\end{document}

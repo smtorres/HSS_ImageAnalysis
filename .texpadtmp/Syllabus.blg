@@ -1,0 +1,9 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is '/Users/michelletorres/Documents/GitHub/HSS_ImageAnalysis/.texpadtmp/Syllabus.blg'
+[89] biber-darwin:340> INFO - === Mon May 31, 2021, 22:10:34
+[106] Biber.pm:415> INFO - Reading '/Users/michelletorres/Documents/GitHub/HSS_ImageAnalysis/.texpadtmp/Syllabus.bcf'
+[206] Biber.pm:952> INFO - Found 0 citekeys in bib section 0
+[212] Utils.pm:395> WARN - The file '/Users/michelletorres/Documents/GitHub/HSS_ImageAnalysis/.texpadtmp/Syllabus.bcf' does not contain any citations!
+[220] bbl.pm:654> INFO - Writing '/Users/michelletorres/Documents/GitHub/HSS_ImageAnalysis/.texpadtmp/Syllabus.bbl' with encoding 'UTF-8'
+[221] bbl.pm:757> INFO - Output to /Users/michelletorres/Documents/GitHub/HSS_ImageAnalysis/.texpadtmp/Syllabus.bbl
+[221] Biber.pm:128> INFO - WARNINGS: 1
