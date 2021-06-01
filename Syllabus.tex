@@ -61,15 +61,16 @@ Several of the tools designed to understand visual content rely on the power of 
 
 The workshop is divided into two sections: a lecture reviewing theoretical concepts, and an applied part in which we conduct basic classification tasks using Python, OpenCV, and R.
 
-\section{Useful textbooks}\label{required-texts-and-materials}
+\section{Useful textbooks and resources}\label{required-texts-and-materials}
 \begin{itemize}
     \item Howse, Joseph, and Joe Minichino. 2020. \emph{Learning OpenCV 4 Computer Vision with Python 3}. 3rd Edition. Birmingham, UK: Packt.
     \item Mart\'{i}nez, Jes\'{u}s. 2021. \emph{TensorFlow 2.0 Computer Vision Cookbook}. Birmingham, UK: Packt.
+    \item Adrian Rosebrock's \emph{PyImageSearch} is a fantastic website with several comprehensive and useful tutorials: \url{https://www.pyimagesearch.com}.
 \end{itemize}
 
 
 \section{Course material and code}
-Code and material for this workshop will be hosted in the GitHub page of the instructor: .
+Code and material for this workshop will be hosted in the GitHub page of the instructor: \url{https://github.com/smtorres/HSS_ImageAnalysis}.
 
 
 \section{Class policies and etiquette}
@@ -78,6 +79,51 @@ Code and material for this workshop will be hosted in the GitHub page of the ins
 
     \item Zoom etiquette I: To make these online meeting a positive experience for everyone that somewhat resembles what our normal classroom would have looked like, please (i) try to join our class meeting from a quiet, distraction-free environment, (ii) turn on your camera when you join class, (iii) look at the camera when you are talking to the class, (iv) mute yourself if the environment is too loud or you have microphone issues, and (v) have a plan for taking notes (paper and pencil, digital notepad, Word/Pages doc). I am TRUSTING YOU with this last point that you are using your computer only for class purposes, and are not shopping, reading other material or working on other tasks. I know that focusing on an online class could be much more difficult than keeping concentrated in in-person classes but PLEASE make an extra effort to be present as a sign of respect for me, Alex, and your classmates.
 \end{itemize}
+
+\section{Class requirements}
+If you want to follow the code and practical examples that I will present in class, make sure to install the following packages and languages in your computer:
+
+\begin{itemize}
+	\item Python 3.x inside a virtual environment (please refer to the \emph{PyImageSearch} website tutorials for this particular installation: \url{https://www.pyimagesearch.com/start-here/}). Once you did that, install the following libraries:
+	\begin{itemize}
+		\item \texttt{numpy}
+		\item \texttt{OpenCV}
+		\item \texttt{keras}
+		\item \texttt{tensorflow}
+	\end{itemize}
+	\item R and RStudio
+	\begin{itemize}
+		\item \texttt{stm}
+	\end{itemize}
+\end{itemize}
+
+\section{Plan for the class}
+\begin{enumerate}
+	\item Lecture
+	\begin{itemize}
+		\item Image basics: image representation, mathematical foundations, challenges for analysis
+		\item Types of analysis and image content retrieval
+		\item Unsupervised analysis: a visual structural topic model
+		\begin{itemize}
+			\item Understanding an image: feature definition and extraction
+			\item Building a visual vocabulary
+			\item Obtaining a Bag of Visual Words
+			\item Implementing a visual STM
+		\end{itemize}
+		\item Convolutional Neural Networks (CNNs) for supervised classification.
+		\begin{itemize}
+			\item Intuition and objectives of CNNs
+			\item Mathematical foundations
+			\item Implementation
+			\item Practical guidance
+		\end{itemize}
+	\end{itemize}
+	\item Lab
+	\begin{itemize}
+		\item Identifying visual topics in images of the caravans of migrants
+		\item Using a CNN to identify a protest
+	\end{itemize}
+\end{enumerate}
 
 \end{flushleft}
 \end{document}
